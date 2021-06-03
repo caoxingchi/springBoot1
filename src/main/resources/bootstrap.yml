@@ -1,14 +1,17 @@
+
+##====================nacos配置中心================================
 spring:
   cloud:
     nacos:
       config:
-        server-addr: 1.15.175.156:8848
-        file-extension: yml
+        server-addr: 1.15.175.156:8848  #配置中心的地址
+        file-extension: yml  # 扩展名的使用
           # 组名
-        group: DEFAULT_GROUP
+        group: DEFAULT_GROUP # 分组的使用
       discovery:
-        server-addr: nacos.xingchi.site:8848
+        server-addr: nacos.xingchi.site:8848  # 服务的发现
 
   application:
     name: service-test
 
+###================================================================
