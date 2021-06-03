@@ -1,0 +1,9 @@
+spring:
+  cloud:
+    nacos:
+      discovery:
+        server-addr: nacos.xingchi.site:8848
+  application:
+    name: service-test
+  profiles:
+    active: dev
