@@ -1,9 +1,14 @@
 spring:
   cloud:
     nacos:
+      config:
+        server-addr: 1.15.175.156:8848
+        file-extension: yml
+          # 组名
+        group: DEFAULT_GROUP
       discovery:
         server-addr: nacos.xingchi.site:8848
+
   application:
     name: service-test
-  profiles:
-    active: dev
+

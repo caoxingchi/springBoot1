@@ -1,5 +1,6 @@
 package site.xingchi.springboot1.controller;
 
+import org.springframework.cloud.context.config.annotation.RefreshScope;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -8,6 +9,7 @@ import site.xingchi.springboot1.utils.AjaxResult;
 
 @RestController
 @RequestMapping("/test")
+@RefreshScope
 public class TestController {
     @PostMapping("/tt")
     public AjaxResult test(){
