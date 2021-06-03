@@ -42,9 +42,6 @@
             <scope>test</scope>
         </dependency>
 
-
-
-
         <!--服务注册-->
         <dependency>
             <groupId>org.springframework.cloud</groupId>
@@ -56,6 +53,7 @@
             <artifactId>spring-cloud-starter-openfeign</artifactId>
         </dependency>
 
+        <!--nacos配置中心-->
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-alibaba-nacos-config</artifactId>
@@ -78,6 +76,7 @@
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
+            <!--spring cloud alibaba的依赖-->
             <dependency>
                 <groupId>org.springframework.cloud</groupId>
                 <artifactId>spring-cloud-alibaba-dependencies</artifactId>
