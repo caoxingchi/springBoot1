@@ -26,6 +26,6 @@ public class TestController {
     @GetMapping("/getName")
     public AjaxResult getName(){
         log.info("name=={}",name);
-        return AjaxResult.success("获取成功","name:===xingchi");
+        return AjaxResult.success("获取成功","name:===xingchi"+name);
     }
 }
